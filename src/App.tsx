@@ -11,6 +11,7 @@ import "./styles/modal.css";
 import "@contentstack/live-preview-utils/dist/main.css";
 import "react-loading-skeleton/dist/skeleton.css";
 import { EntryProps } from "../src/typescript/layout";
+import Search from "./pages/search";
 
 function App() {
   const [getEntry, setEntry] = useState({} as EntryProps);
@@ -30,6 +31,7 @@ function App() {
             path="/blog/:blogId"
             element={<BlogPost entry={getPageRes} />}
           />
+          <Route path="/search" element={<Search />} />
           <Route path="/404" element={<Error />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Route>

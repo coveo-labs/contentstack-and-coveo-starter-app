@@ -70,7 +70,6 @@ export default function Layout({ entry }: {entry: EntryProps}) {
   }, []);
 
   useEffect(() => {
-    console.error('error...', error);
     error && history('/error');
   }, [error]);
 
