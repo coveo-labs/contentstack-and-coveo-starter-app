@@ -1,5 +1,10 @@
 # Integration between Contentstack and Coveo
 
+> **:warning: Experimental, use at your own risk.**
+> 
+> This repository is shared to be helpful and for informational purposes (not officially supported, not for production use).  
+> For assistance, _refrain from contacting Coveo support_ and use Github issues instead.
+
 About Contentstack: Contentstack is a headless CMS with an API-first approach that puts content at the centre. It is designed to simplify the process of publication by separating code from content.
 
 About Coveo: Coveo is a Search and Relevance plaform using Machine Learning to personalize experiences for every user.
